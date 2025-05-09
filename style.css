@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#clique:hover{
+    color: rgb(55, 102, 255);
+    transition: .5s;
+}
+#navbarNav{
+    color: black;
+}
+
+body{
+    background-image: url(OIP.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+.container2{
+    display: flex;
+}
+
+img{
+    filter: sepia(100%) saturate(0%) brightness(0%);
+}
+
+#titulo{
+    color: rgb(255, 255, 255);
+    stroke: black;
+    stroke-width: 10%;
+    margin: 10px;
+}
+
+#data{
+    margin: 10px;
+    color: black;
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card{
+    margin: 30px;
+}
+.card-title{
+    color: purple;
+}
+
+.input-group.input-group-sm.mb-3{
+    width: 287px;
+}
+
+.custom-control.custom-checkbox{
+    color: white;
+}
+
+.custom-select{
+    width: 287px;
+    border-radius: 10px;
+}
+
+#botao{
+    margin: 30px;
+}
